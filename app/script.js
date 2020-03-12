@@ -18,7 +18,7 @@ class App extends React.Component {
     const { status, time } = this.state;
     if (time > 0) {
       this.setState({
-        time: this.state.time - 1,
+        time: time - 1,
       });
     } else {
       if (status === 'work') {
